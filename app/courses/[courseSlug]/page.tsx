@@ -94,24 +94,24 @@ export default async function CourseDetailPage({ params }: PageProps) {
 
           <div className="space-y-3 text-xs">
             <div>
-              <p className="font-bold text-slate-800 flex items-center gap-1.5">
-                🌐 Zero Dependencies
+              <p className="font-bold text-slate-800">
+                Zero Dependencies
               </p>
               <p className="text-slate-500 mt-0.5">
                 Self-contained browser sandboxes and local execution paths.
               </p>
             </div>
             <div>
-              <p className="font-bold text-slate-800 flex items-center gap-1.5">
-                💻 Code-Centric Pedagogy
+              <p className="font-bold text-slate-800">
+                Code-Centric Pedagogy
               </p>
               <p className="text-slate-500 mt-0.5">
                 Structured architecture blueprints and source comparisons.
               </p>
             </div>
             <div>
-              <p className="font-bold text-slate-800 flex items-center gap-1.5">
-                🛡️ Production Auditing
+              <p className="font-bold text-slate-800">
+                Production Auditing
               </p>
               <p className="text-slate-500 mt-0.5">
                 Includes cache profiling and server mutation boundaries.
@@ -136,8 +136,8 @@ export default async function CourseDetailPage({ params }: PageProps) {
             </p>
           </div>
           <div className="flex items-center gap-3 text-xs text-slate-500">
-            <span>● Text &amp; Code</span>
-            <span className="text-blue-600 font-medium">● Guided Walkthroughs</span>
+            <span>Text &amp; Code</span>
+            <span className="text-blue-600 font-medium">Guided Walkthroughs</span>
           </div>
         </div>
 

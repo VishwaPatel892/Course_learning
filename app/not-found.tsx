@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <div className="space-y-8 py-12 text-center max-w-lg mx-auto">
       <span className="inline-block text-xs font-mono font-medium text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1 rounded-full">
-        • 404 · LESSON OR COURSE NOT FOUND
+        404 · LESSON OR COURSE NOT FOUND
       </span>
 
 

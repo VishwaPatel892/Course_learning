@@ -23,7 +23,7 @@ export default async function TopicsCatchAllPage({ params }: PageProps) {
       {/* Top Special Banner Demonstrating Optional Catch-All */}
       <div className="bg-slate-900 text-white text-xs px-4 py-2.5 rounded-lg flex items-center justify-between font-mono shadow-sm">
         <div className="flex items-center gap-2">
-          <span className="text-blue-400">⚡ Route pattern:</span>
+          <span className="text-blue-400">Route pattern:</span>
           <span className="text-slate-300">/topics/[[...slug]]</span>
           <span className="text-slate-500">→</span>
           <span className="text-emerald-400 font-semibold">resolved to: {currentPath}</span>
@@ -53,7 +53,7 @@ export default async function TopicsCatchAllPage({ params }: PageProps) {
         </div>
         <div className="flex items-center gap-2">
           <span className="text-blue-700 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded text-2xs font-semibold">
-            ● Curriculum Track 2025
+            Curriculum Track 2025
           </span>
           <span>4 Modules Available</span>
         </div>

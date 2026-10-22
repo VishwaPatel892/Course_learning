@@ -95,8 +95,8 @@ export default function CourseCatalogPage() {
                 <h3 className="text-base font-bold text-slate-900 hover:text-blue-600 transition">
                   <Link href={`/courses/${course.slug}`}>{course.title}</Link>
                 </h3>
-                <p className="text-xs text-slate-500 mt-1 flex items-center gap-1">
-                  <span>👤</span> {course.instructor}
+                <p className="text-xs text-slate-500 mt-1">
+                  {course.instructor}
                 </p>
               </div>
 
@@ -106,8 +106,8 @@ export default function CourseCatalogPage() {
             </div>
 
             <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-              <span className="text-slate-500 flex items-center gap-1">
-                📖 {course.lessonsCount} Lessons
+              <span className="text-slate-500">
+                {course.lessonsCount} Lessons
               </span>
               <Link
                 href={`/courses/${course.slug}`}

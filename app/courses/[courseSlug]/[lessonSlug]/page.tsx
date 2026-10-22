@@ -76,24 +76,24 @@ export default async function LessonViewPage({ params }: PageProps) {
           {/* Module 1 */}
           <div className="space-y-2">
             <div className="flex justify-between font-bold text-slate-800 text-xs">
-              <span>📁 Module 1: Routing Architecture</span>
+              <span>Module 1: Routing Architecture</span>
               <span className="text-slate-400 text-2xs">3/4 Done</span>
             </div>
             <div className="space-y-1 pl-2">
               <div className="flex items-center justify-between py-1 text-slate-500">
-                <span>✓ 01 Introduction &amp; Philosophy</span>
+                <span>01 Introduction &amp; Philosophy</span>
                 <span className="text-2xs">12m</span>
               </div>
               <div className="flex items-center justify-between py-1 text-slate-500">
-                <span>✓ 02 Server vs Client Components</span>
+                <span>02 Server vs Client Components</span>
                 <span className="text-2xs">16m</span>
               </div>
               <div className="flex items-center justify-between py-1 text-slate-500">
-                <span>✓ 03 Nested Layouts &amp; Templates</span>
+                <span>03 Nested Layouts &amp; Templates</span>
                 <span className="text-2xs">14m</span>
               </div>
               <div className="flex items-center justify-between py-1 bg-blue-50 text-blue-700 font-semibold px-2 rounded">
-                <span>▶ 04 Dynamic &amp; Catch-All Routes</span>
+                <span>04 Dynamic &amp; Catch-All Routes</span>
                 <span className="text-2xs font-mono">6m</span>
               </div>
             </div>
@@ -102,20 +102,20 @@ export default async function LessonViewPage({ params }: PageProps) {
           {/* Module 2 */}
           <div className="space-y-2 pt-2 border-t border-slate-100">
             <div className="flex justify-between font-bold text-slate-700 text-xs">
-              <span>📁 Module 2: Data Fetching &amp; Caching</span>
+              <span>Module 2: Data Fetching &amp; Caching</span>
               <span className="text-slate-400 text-2xs">0/3</span>
             </div>
             <div className="space-y-1 pl-2 text-slate-400">
               <div className="flex justify-between py-1">
-                <span>○ 05 Server-side Fetching &amp; Cache</span>
+                <span>05 Server-side Fetching &amp; Cache</span>
                 <span className="text-2xs">22m</span>
               </div>
               <div className="flex justify-between py-1">
-                <span>○ 06 Revalidation Strategies</span>
+                <span>06 Revalidation Strategies</span>
                 <span className="text-2xs">14m</span>
               </div>
               <div className="flex justify-between py-1">
-                <span>○ 07 Parallel &amp; Intercepting Routes</span>
+                <span>07 Parallel &amp; Intercepting Routes</span>
                 <span className="text-2xs">25m</span>
               </div>
             </div>
@@ -124,16 +124,16 @@ export default async function LessonViewPage({ params }: PageProps) {
           {/* Module 3 */}
           <div className="space-y-2 pt-2 border-t border-slate-100">
             <div className="flex justify-between font-bold text-slate-700 text-xs">
-              <span>📁 Module 3: Mutation &amp; Boundary</span>
+              <span>Module 3: Mutation &amp; Boundary</span>
               <span className="text-slate-400 text-2xs">0/2</span>
             </div>
             <div className="space-y-1 pl-2 text-slate-400">
               <div className="flex justify-between py-1">
-                <span>○ 08 Server Actions &amp; Forms</span>
+                <span>08 Server Actions &amp; Forms</span>
                 <span className="text-2xs">30m</span>
               </div>
               <div className="flex justify-between py-1">
-                <span>○ 09 Error Boundaries &amp; notFound()</span>
+                <span>09 Error Boundaries &amp; notFound()</span>
                 <span className="text-2xs">16m</span>
               </div>
             </div>
@@ -164,11 +164,11 @@ export default async function LessonViewPage({ params }: PageProps) {
               04 Dynamic &amp; Catch-All Routes
             </h1>
             <div className="flex items-center gap-4 text-xs text-slate-400 pt-1">
-              <span>⏱ 6 min read</span>
+              <span>6 min read</span>
               <span>•</span>
-              <span>💻 Code Practice Available</span>
+              <span>Code Practice Available</span>
               <span>•</span>
-              <span>🔄 Updated for Next.js 15+</span>
+              <span>Updated for Next.js 15+</span>
             </div>
           </div>
 
@@ -243,8 +243,7 @@ export default async function BlogPost({
           </div>
 
           {/* Key Takeaway Alert */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex gap-3 text-xs text-blue-900">
-            <span className="text-base">💡</span>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-xs text-blue-900">
             <div>
               <strong className="font-bold">Key Takeaway</strong>
               <p className="mt-0.5 leading-relaxed text-blue-800">
